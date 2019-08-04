@@ -1,5 +1,5 @@
-class Meal  
-  attr_accessor :name, :customer 
+class Meal
+  attr_accessor :name, :customer
 
   @@all = []
 
@@ -11,7 +11,7 @@ class Meal
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 end
